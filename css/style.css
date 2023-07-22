@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-family: 'Vazir-Medium';
+  src: url("../fonts/Vazir-Medium.eot");
+  src: url("../fonts/Vazir-Medium.eot") format("embedded-opentype"), url("../fonts/Vazir-Medium.ttf") format("truetype"), url("../fonts/Vazir-Medium.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Vazir-Medium", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -21,6 +21,11 @@ body {
     body {
       font-size: 16px; } }
 
+p {
+  font-size: larger;
+  text-align: center;
+  direction: rtl;
+}
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
