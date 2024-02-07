@@ -4,7 +4,6 @@ xhttp.onload = function() {
     let obj = JSON.parse(this.responseText)
     obj.forEach( function(value, index){
         let projects = document.querySelector('#projects')
-        console.log(value)
         if (index <= 1){
             let html = ``
             if (index == 1){
